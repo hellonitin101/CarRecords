@@ -14,6 +14,9 @@ const Records = () => {
       { id: 1, date:"13/10/2026", name: "Bahrav Singh", from: "Jaipur", to: "Local", amount: "1600", expend: "300" },
       { id: 2, date:"14/10/2026", name: "Ranjit Singh", from: "Jaipur", to: "Bhilwara", amount: "5200", expend: "1800" },
       { id: 3, date:"16/10/2026", name: "Sailendra Ji", from: "Jaipur", to: "Jin Mata", amount: "2500", expend: "600" },
+      { id: 4, date:"17/10/2026", name: "Lokesh Sharma", from: "Jaipur", to: "---", amount: "", expend: "" },
+      { id: 4, date:"18/10/2026", name: "------", from: "---", to: "---", amount: "", expend: "" },
+      { id: 4, date:"19/10/2026", name: "------", from: "---", to: "Tapukda, Alwar", amount: "7500", expend: "1500" },
     ]
   };
 
