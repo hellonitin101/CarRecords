@@ -17,7 +17,17 @@ const Records = () => {
       { id: 4, date:"17/10/2026", name: "Lokesh Sharma", from: "Jaipur", to: "---", amount: "", expend: "" },
       { id: 4, date:"18/10/2026", name: "------", from: "---", to: "---", amount: "", expend: "" },
       { id: 4, date:"19/10/2026", name: "------", from: "---", to: "Tapukda, Alwar", amount: "7500", expend: "1500" },
-    ]
+      { id: 5, date:"22/10/2026", name: "Self", from: "Jaipur", to: "---", amount: "", expend: "" },
+      { id: 5, date:"23/10/2026", name: "------", from: "---", to: "Delhi", amount: "5700", expend: "2000" },
+      { id: 6, date:"26/10/2026", name: "Self", from: "Jaipur", to: "", amount: "", expend: "" },
+      { id: 6, date:"27/10/2026", name: "Self", from: "---", to: "", amount: "", expend: "" },
+      { id: 6, date:"28/10/2026", name: "Self", from: "---", to: "", amount: "", expend: "" },
+      { id: 6, date:"29/10/2026", name: "Self", from: "---", to: "Bharatpur", amount: "12000", expend: "3000" },
+    ],
+    November: [
+      { id: 1, date:"1/11/2026", name: "Vijay Singh", from: "Jaipur", to: "JhunJhunu", amount: "3700", expend: "1200" },
+    ],
+    
   };
 
   const records = data[selectedMonth] || [];
