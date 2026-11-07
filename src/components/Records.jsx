@@ -11,23 +11,27 @@ const Records = () => {
 
   const data = {
     October: [
-      { id: 1, date:"13/10/2026", name: "Bahrav Singh", from: "Jaipur", to: "Local", amount: "1600", expend: "300" },
-      { id: 2, date:"14/10/2026", name: "Ranjit Singh", from: "Jaipur", to: "Bhilwara", amount: "5200", expend: "1800" },
-      { id: 3, date:"16/10/2026", name: "Sailendra Ji", from: "Jaipur", to: "Jin Mata", amount: "2500", expend: "600" },
-      { id: 4, date:"17/10/2026", name: "Lokesh Sharma", from: "Jaipur", to: "---", amount: "", expend: "" },
-      { id: 4, date:"18/10/2026", name: "------", from: "---", to: "---", amount: "", expend: "" },
-      { id: 4, date:"19/10/2026", name: "------", from: "---", to: "Tapukda, Alwar", amount: "7500", expend: "1500" },
-      { id: 5, date:"22/10/2026", name: "Self", from: "Jaipur", to: "---", amount: "", expend: "" },
-      { id: 5, date:"23/10/2026", name: "------", from: "---", to: "Delhi", amount: "5700", expend: "2000" },
-      { id: 6, date:"26/10/2026", name: "Self", from: "Jaipur", to: "", amount: "", expend: "" },
-      { id: 6, date:"27/10/2026", name: "Self", from: "---", to: "", amount: "", expend: "" },
-      { id: 6, date:"28/10/2026", name: "Self", from: "---", to: "", amount: "", expend: "" },
-      { id: 6, date:"29/10/2026", name: "Self", from: "---", to: "Bharatpur", amount: "12000", expend: "3000" },
+      { id: 1, date: "13/10/2026", name: "Bahrav Singh", from: "Jaipur", to: "Local", amount: "1600", expend: "300" },
+      { id: 2, date: "14/10/2026", name: "Ranjit Singh", from: "Jaipur", to: "Bhilwara", amount: "5200", expend: "1800" },
+      { id: 3, date: "16/10/2026", name: "Sailendra Ji", from: "Jaipur", to: "Jin Mata", amount: "2500", expend: "600" },
+      { id: 4, date: "17/10/2026", name: "Lokesh Sharma", from: "Jaipur", to: "---", amount: "", expend: "" },
+      { id: 4, date: "18/10/2026", name: "------", from: "---", to: "---", amount: "", expend: "" },
+      { id: 4, date: "19/10/2026", name: "------", from: "---", to: "Tapukda, Alwar", amount: "7500", expend: "1500" },
+      { id: 5, date: "22/10/2026", name: "Self", from: "Jaipur", to: "---", amount: "", expend: "" },
+      { id: 5, date: "23/10/2026", name: "------", from: "---", to: "Delhi", amount: "5700", expend: "2000" },
+      { id: 6, date: "26/10/2026", name: "Self", from: "Jaipur", to: "", amount: "", expend: "" },
+      { id: 6, date: "27/10/2026", name: "Self", from: "---", to: "", amount: "", expend: "" },
+      { id: 6, date: "28/10/2026", name: "Self", from: "---", to: "", amount: "", expend: "" },
+      { id: 6, date: "29/10/2026", name: "Self", from: "---", to: "Bharatpur", amount: "12000", expend: "3000" },
     ],
     November: [
-      { id: 1, date:"1/11/2026", name: "Vijay Singh", from: "Jaipur", to: "JhunJhunu", amount: "3700", expend: "1200" },
+      { id: 1, date: "1/11/2026", name: "Vijay Singh", from: "Jaipur", to: "JhunJhunu", amount: "3700", expend: "1200" },
+      { id: 2, date: "4/11/2026", name: "Self", from: "Jaipur", to: "", amount: "", expend: "" },
+      { id: 2, date: "5/11/2026", name: "", from: "", to: "Firozabad", amount: "8000", expend: "2500" },
+      { id: 3, date: "6/11/2026", name: "Self", from: "Jaipur", to: "JhunJhunu", amount: "6500", expend: "2000" },
+      { id: 4, date: "7/11/2026", name: "Self", from: "Jaipur", to: "Ajmer", amount: "2500", expend: "1200" },
     ],
-    
+
   };
 
   const records = data[selectedMonth] || [];
@@ -57,11 +61,10 @@ const Records = () => {
           <button
             key={month}
             onClick={() => setselectedMonth(month)}
-            className={`rounded-xl border p-3 text-sm font-medium transition-colors duration-200 ${
-              selectedMonth === month
-                ? "border-[#D6AE58] bg-[#D6AE58] text-[#0D172B]"
-                : "border-gray-700 bg-[#152238] text-white hover:border-[#D6AE58] hover:text-[#D6AE58]"
-            }`}
+            className={`rounded-xl border p-3 text-sm font-medium transition-colors duration-200 ${selectedMonth === month
+              ? "border-[#D6AE58] bg-[#D6AE58] text-[#0D172B]"
+              : "border-gray-700 bg-[#152238] text-white hover:border-[#D6AE58] hover:text-[#D6AE58]"
+              }`}
           >
             {month}
           </button>
