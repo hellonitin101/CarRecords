@@ -30,6 +30,7 @@ const Records = () => {
       { id: 3, date: "5/11/2026", name: "", from: "", to: "Firozabad", amount: "8000", expend: "2500" },
       { id: 4, date: "6/11/2026", name: "Self", from: "Jaipur", to: "JhunJhunu", amount: "6500", expend: "2000" },
       { id: 5, date: "7/11/2026", name: "Self", from: "Jaipur", to: "Ajmer", amount: "2500", expend: "1200" },
+      { id: 6, date: "8/11/2026", name: "Raj Sharma", from: "Aamer", to: "Jhalana Safari", amount: "2000", expend: "700" },
     ],
 
   };
