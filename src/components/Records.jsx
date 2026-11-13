@@ -30,7 +30,12 @@ const Records = () => {
       { id: 3, date: "5/11/2026", name: "", from: "", to: "Firozabad", amount: "8000", expend: "2500" },
       { id: 4, date: "6/11/2026", name: "Self", from: "Jaipur", to: "JhunJhunu", amount: "6500", expend: "2000" },
       { id: 5, date: "7/11/2026", name: "Self", from: "Jaipur", to: "Ajmer", amount: "2500", expend: "1200" },
-      { id: 6, date: "8/11/2026", name: "Raj Sharma", from: "Aamer", to: "Jhalana Safari", amount: "2000", expend: "700" },
+      { id: 6, date: "8/11/2026", name: "Raj Sharma", from: "Aamer", to: "Jhalana Safari", amount: "2000", expend: "500" },
+      { id: 7, date: "9/11/2026", name: "Vijay Singh", from: "Jaipur", to: "Amarsar", amount: "2500", expend: "575" },
+      { id: 9, date: "10/11/2026", name: "Raj Sharma", from: "Ajmeri Gate", to: "Ranthambore", amount: "3800", expend: "1400" },
+      { id: 10, date: "11/11/2026", name: "Self", from: "Jaipur", to: "Firozabad", amount: "6500", expend: "2000" },
+      { id: 11, date: "12/11/2026", name: "Dipak Gurjar", from: "Jaipur", to: "Local", amount: "5000", expend: "1000" },
+      { id: 12, date: "13/11/2026", name: "Dipak Gurjar", from: "Jaipur", to: "Khatu,Salasar", amount: "4100", expend: "1500" },
     ],
 
   };
